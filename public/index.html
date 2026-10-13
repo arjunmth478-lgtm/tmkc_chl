@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07101f"><meta name="description" content="Shopnix — everyday finds, delivered simply.">
+<title>Shopnix — Smart Shopping</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230e8bff'/%3E%3Ctext x='50' y='66' font-size='54' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#"><span class="brand-mark">S</span> SHOPNIX</a><div class="search-wrap"><span>⌕</span><input id="search" placeholder="Search products..." aria-label="Search products"></div><nav><button id="loginOpen" class="ghost">Sign in</button><button id="cartOpen" class="cart-button">Cart <b id="cartCount">0</b></button></nav></header>
+<main>
+<section class="hero"><div class="hero-copy"><span class="eyebrow">THE SMARTER WAY TO SHOP</span><h1>Good finds.<br><span>Better everyday.</span></h1><p>Discover things you’ll love, without the endless searching.</p><a href="#products" class="primary-link">Explore collection <span>↗</span></a><small id="banner">Shopnix — Connected by Flipkart, Meesho, Amazon & Many More</small></div><div class="hero-art"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="hero-product">✦<span>SHOP<br>SMART</span></div><div class="float-chip chip-one">✧ Curated picks</div><div class="float-chip chip-two">✦ Everyday value</div></div></section>
+<div class="trust-row"><span>✦ Thoughtful finds</span><span>↗ Easy checkout</span><span>♡ Made for you</span></div>
+<section id="products" class="products-section"><div class="section-heading"><div><span class="eyebrow">YOUR NEXT FAVOURITE</span><h2>Explore products</h2></div><div id="categories" class="categories"><button class="category active" data-category="All">All</button></div></div><div id="productGrid" class="product-grid"><div class="loading">Loading the good stuff…</div></div><p id="empty" class="empty hidden">No products found. Try another search.</p></section>
+<section class="newsletter"><div><span class="eyebrow">A LITTLE GOOD NEWS</span><h2>Good things are<br>just around the corner.</h2><p>Browse our latest picks and find your next everyday favourite.</p></div><a href="#products" class="primary-link">Shop the collection ↗</a></section>
+</main>
+<footer><a class="brand" href="#"><span class="brand-mark">S</span> SHOPNIX</a><span>Thoughtfully picked. Simply shopped.</span><span>© <span id="year"></span> Shopnix</span></footer>
+<div id="toast" class="toast" role="status"></div>
+<div id="modal" class="modal hidden"><div class="modal-card"><button class="close" id="modalClose" aria-label="Close">×</button><div id="modalContent"></div></div></div>
+<aside id="cartDrawer" class="drawer hidden"><div class="drawer-head"><h2>Your cart</h2><button id="cartClose" class="close">×</button></div><div id="cartItems"></div><div class="cart-total"><span>Total</span><b id="cartTotal">₹0</b></div><button id="checkout" class="primary full">Continue to checkout</button></aside><div id="scrim" class="scrim hidden"></div>
+<script src="/app.js" defer></script>
+</body></html>
