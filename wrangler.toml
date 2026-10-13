@@ -4,13 +4,13 @@ compatibility_date = "2026-10-01"
 
 [vars]
 STORE_NAME = "Shopnix"
-WHATSAPP_NUMBER = ""
-TELEGRAM_USERNAME = ""
+WHATSAPP_NUMBER = "+380 676235211"
+TELEGRAM_USERNAME = "@Shop_nix"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "shopnix-db"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id = "b962c82e-6ff7-406f-84e7-7052f3ed67a9"
 migrations_dir = "migrations"
 
 # Optional image storage:
